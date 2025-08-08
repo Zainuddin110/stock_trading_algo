@@ -13,8 +13,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
 # --- Configuration ---
-telegram_token = '8367885466:AAFEzRjBopWrRPx7ltEDoxCeR2AgDGQNvWk'
-telegram_chat_id = '1076221731'
+telegram_token = 'YOUR_TELEGRAM_TOKEN'
+telegram_chat_id = 'YOUR_CHAT_ID'
 
 # Setup logging format
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
